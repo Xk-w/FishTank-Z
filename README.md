@@ -1,2 +1,2 @@
 # FishTank-Z
-这是一个与FishTank-Z主控板有关的项目代码
+This is a project code related to the FishTank Z main control board
