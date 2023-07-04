@@ -205,10 +205,10 @@ void setup()
     PH_Class1.ADC_Init(12, PH_Pin);
     TDS_Class1.ADC_Init(12, TDS_Pin);
 
-//     // 过滤器PWM初始化
-//     TB6612_FILClass1.PWM_InitConfig(PWMA, TB6612_FilterChannel, TB6612_Frequency, TB6612_Accuracy10);
-//     // 供氧泵PWM初始化
-//     TB6612_OXYClass1.PWM_InitConfig(PWMB, TB6612_OxygenChannel, TB6612_Frequency, TB6612_Accuracy10);
+    // 过滤器PWM初始化
+    TB6612_FILClass1.PWM_InitConfig(PWMA, TB6612_FilterChannel, TB6612_Frequency, TB6612_Accuracy10);
+    // 供氧泵PWM初始化
+    TB6612_OXYClass1.PWM_InitConfig(PWMB, TB6612_OxygenChannel, TB6612_Frequency, TB6612_Accuracy10);
 }
 
 void loop()
